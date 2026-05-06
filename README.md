@@ -16,17 +16,16 @@
 ```text
 github_publication_code/
 ├── research/                        # исходные ipynb-файлы с исследованием
-│   ├── SAM3_Research-4.ipynb
-│   ├── Yolo_SAM3_Research-2.ipynb
-│   └── Yolo_SAM3_improve-3.ipynb
+│   ├── SAM3_Research.ipynb
+│   ├── Yolo_SAM3_Research.ipynb
+│   └── Yolo_SAM3_improve.ipynb
 ├── src/                           # основной код
-│   └── yolo_efficientsam3/
-│       ├── __init__.py
-│       ├── cli.py
-│       ├── constants.py
-│       ├── metrics.py
-│       ├── pipeline.py
-│       └── visibility.py
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── constants.py
+│   ├── metrics.py
+│   ├── pipeline.py
+│   └── visibility.py
 ├── requirements.txt
 └── pyproject.toml
 ```
