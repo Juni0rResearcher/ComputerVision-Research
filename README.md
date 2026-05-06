@@ -15,11 +15,12 @@
 ## Структура репозитория
 ```text
 github_publication_code/
+├── images/                          # результаты сегментации изображений в ходе экспериментов
 ├── research/                        # исходные ipynb-файлы с исследованием
 │   ├── SAM3_Research.ipynb
 │   ├── Yolo_SAM3_Research.ipynb
 │   └── Yolo_SAM3_improve.ipynb
-├── src/                           # основной код
+├── src/                             # основной код
 │   ├── __init__.py
 │   ├── cli.py
 │   ├── constants.py
